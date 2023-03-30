@@ -1,0 +1,46 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form With Captcha</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container"><br><br>
+        <div id="sub-container-box">
+            <div class="sub-container">
+                <form class="input-position" action="">
+                    <h1>LOGIN</h1><br><br>
+                    <input type="text" name="first Name" placeholder="First Name"><br><br>
+                    <input type="text" name="last Name" placeholder="Last Name"><br><br>
+                    <input type="email" name="emil" placeholder="Email"><br><br>
+                    <input type="password" name="password" placeholder="Password"><br><br>
+
+                    <div class="center">
+                        <div id="captchaBackground">
+                            <canvas id="captcha">captcha text</canvas>
+                            <input id="textBox" type="text" name="text" placeholder="Enter Captcha Heare">
+                            <div id="buttons">
+                                <input id="submitButton" type="submit" > 
+                                <button id="refreshButton" type="reset" class="">Refresh</button>
+                            </div>
+                            <span id="output"></span>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+        <br><br><br><br><br><br><br>
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

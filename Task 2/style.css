@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.input-position{
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+}
+.input-position input{
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+}
+.input-position input:focus{
+    background-color: lightblue;
+}
+.container{
+    background-image: url(/img/bg\ \(6\).jpg);
+    background-size: cover;
+    width: 100%;
+}
+.input-position{
+    background-color: rgb(31, 90, 142);
+    width: 500px;
+    height: 600px;
+    border: 2px solid rgb(232, 227, 227);
+}
+.input-position h1{
+    padding-top: 15px;
+    color: #e3d8c5;
+}
+#sub-container-box{
+    display: flex;
+    margin-left: 570px;
+}
+
+#captchaBackground {
+    height: 220px;
+    width: 250px;
+    background-color:rgb(31, 90, 142);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#captcha {
+    height: 40%;
+    width: 50%;
+    font-size: 30px;
+    letter-spacing: 3px;
+    margin: auto;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: lightblue;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#submitButton {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    background-color: #29f086;
+    border: 0px;
+    font-weight: bold;
+}
+
+#refreshButton {
+    background-color: #29f086;
+    border: 0px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 20PX;
+
+}
+
+#textBox {
+    height: 10px;
+}
+
+.incorrectCaptcha {
+    color: #0a0606;
+}
+
+.correctCaptcha {
+    color: #99ee43;
+}
